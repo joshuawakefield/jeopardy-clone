@@ -44,7 +44,7 @@ At the following link, you will find a Figma containing the four wireframes nece
 
 **And** they should see a subtitle that indicates whose turn it is.
 
-**And** a 6X6 grid with category names across the top row, and points from 100 - 500 below each category.
+**And** a 6X6 grid with category names across the top row, and points from 200 - 1000 below each category, doubling in each row.
 
 **And** the grid should be centered on the page.
 
@@ -72,7 +72,7 @@ At the following link, you will find a Figma containing the four wireframes nece
 
 **And** they should see a subtitle that indicates whose turn it is.
 
-**And** a 6X6 grid with category names across the top row, and points from 100 - 500 below each category.
+**And** a 6X6 grid with category names across the top row, and points from 400 - 2000 below each category, doubling in each row.
 
 **And** the grid should be centered on the page
 
@@ -106,5 +106,6 @@ At the following link, you will find a Figma containing the four wireframes nece
 
 # Icebox
 
+* Create your own theme for your site.
 * Make the site fully mobile responsive.
 * The site should have animated elements. Libraries are allowed.
