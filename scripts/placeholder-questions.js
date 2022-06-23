@@ -1,5 +1,4 @@
-{
-    "placeholderQuestions": [
+    const placeholderQuestions = [
         {
             "category": "Nature",
             "question": "The human heart has how many chambers?",
@@ -306,4 +305,5 @@
             "answer": "Burlington Code Academy"
         }
     ]
-}
+
+    module.exports = placeholderQuestions
