@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index1.js" defer></script>
+    <title>Jeopardy - Round One</title>
+</head>
+<body>   
+
+    <!-- having a gameContainer allows me to control the child gameBoard using flex -->
+<div class="gameContainer"> 
+
+    <div class="score">
+        <div class="score1Container" style="border: 2px solid black">
+            <center><h1>-Player 1-<br>
+            <span class="p1Score">no score</span>
+            </h1></center>
+        </div>   
+    </div>
+
+    <div class="innerGame">
+
+        <div class="gameHeader">    
+            <div class="titleRound"><h1>Jeopardy</h1></div>    
+        </div>
+<!-- gameBoard 
+I can index by column, numbered categoryN, inner cell or numbered 'ij' className
+I use a cellContents most interior div to control the position of the wording
+and I thus had to make all .cell's flexContainers-->
+    
+        <div class="gameBoard">
+            <div class="column category1">
+                <div class="11 title topLeft"><center><div class="cellContents 11">Title</div></center></div>
+                <div class="cell 12"><div class="cellContents 12">200</div></div>
+                <div class="cell 13"><div class="cellContents 13">400</div></div>
+                <div class="cell 14"><div class="cellContents 14">600</div></div>
+                <div class="cell 15"><div class="cellContents 15">800</div></div>
+                <div class="cell 16 bottomLeft"><div class="cellContents 16">1000</div></div>
+            </div>
+            <div class="column category2">
+                <div class="21 title"><center><div class="cellContents 21">Title</div></center></div>
+                <div class="cell 22"><div class="cellContents 22">200</div></div>
+                <div class="cell 23"><div class="cellContents 23">400</div></div>
+                <div class="cell 24"><div class="cellContents 24">600</div></div>
+                <div class="cell 25"><div class="cellContents 25">800</div></div>
+                <div class="cell 26"><div class="cellContents 26">1000</div></div>
+            </div>
+            <div class="column category3">
+                <div class="31 title"><center><div class="cellContents 31">Title</div></center></div>
+                <div class="cell 32"><div class="cellContents 32">200</div></div>
+                <div class="cell 33"><div class="cellContents 33">400</div></div>
+                <div class="cell 34"><div class="cellContents 34">600</div></div>
+                <div class="cell 35"><div class="cellContents 35">800</div></div>
+                <div class="cell 36"><div class="cellContents 36">1000</div></div>
+            </div>
+            <div class="column category4">
+                <div class="41 title"><center><div class="cellContents 41">Title</div></center></div>
+                <div class="cell 42"><div class="cellContents 42">200</div></div>
+                <div class="cell 43"><div class="cellContents 43">400</div></div>
+                <div class="cell 44"><div class="cellContents 44">600</div></div>
+                <div class="cell 45"><div class="cellContents 45">800</div></div>
+                <div class="cell 46"><div class="cellContents 46">1000</div></div>
+            </div>
+            <div class="column category5">
+                <div class="51 title"><center><div class="cellContents 51">Title</div></center></div>
+                <div class="cell 52"><div class="cellContents 52">200</div></div>
+                <div class="cell 53"><div class="cellContents 53">400</div></div>
+                <div class="cell 54"><div class="cellContents 54">600</div></div>
+                <div class="cell 55"><div class="cellContents 55">800</div></div>
+                <div class="cell 56"><div class="cellContents 56">1000</div></div>
+            </div>
+            <div class="column category6">
+                <div class="61 title topRight"><center><div class="cellContents 61">Title</div></center></div>
+                <div class="cell 62"><div class="cellContents 62">200</div></div>
+                <div class="cell 63"><div class="cellContents 63">400</div></div>
+                <div class="cell 64"><div class="cellContents 64">600</div></div>
+                <div class="cell 65"><div class="cellContents 65">800</div></div>
+                <div class="cell 66 bottomRight"><div class="cellContents 66">1000</div></div>
+            </div>
+        </div>
+    
+    
+        <div class="status">
+            <div>
+                <h1><span class="statusMessage">Round One</span></h1>
+            </div>
+        </div> 
+
+        
+    </div>     <!--  end innerGame -->
+
+    <div class="score">
+        <div class="score2Container">
+            <center><h1>-Player 2-<br>
+            <span class="p2Score">no score</span>
+            </h1></center>
+        </div>   
+    </div>
+
+</div>         
+
+
+           
+       
+</body>
+</html>

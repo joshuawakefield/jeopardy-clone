@@ -1,0 +1,167 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.alex {
+    background-image: url("./assets/alextoboard.gif");
+    background-size: cover; 
+    z-index: -1;
+}
+
+@font-face {
+    font-family: "GyparodyRegular";
+    src: url('./gyparody\ rg.ttf');
+ }
+
+.gameContainer {
+    display: flex;
+
+    align-items: center;
+    /* height: 100vh; */
+    margin: 1rem auto;
+    width: fit-content;
+
+}
+.innerGame {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: fit-content;
+
+}
+
+.gameHeader {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto 1rem auto;
+    font: GyparodyRegular;
+}
+
+.gameBoard {
+    
+    margin: 1rem auto;
+    display: flex;
+    background: repeating-linear-gradient(14deg,
+    crimson,darkorange,
+    orange,    
+    yellow,green,
+    red,
+    orange, yellow);
+    box-shadow: 5px 5px 25px black;
+    padding: 2px;
+    border-radius: 15px;
+}
+
+.topLeft {
+    border-top-left-radius: 10px;
+}
+
+.topRight {
+    border-top-right-radius: 10px;
+}
+
+.bottomRight {
+    border-bottom-right-radius: 10px;
+}
+
+.bottomLeft {
+    border-bottom-left-radius: 10px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.cell, title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom,darkblue, #034694, #034694, darkblue);
+    text-shadow: 2px 2px 3px black;
+    color: white;
+    box-shadow: 4px 4px 14px black;
+    margin: 12px;
+    width:200px;
+    height: 80px;
+    padding: 0 2rem;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom,darkblue, #034694, #034694, darkblue);
+    text-shadow: 2px 2px 3px black;
+    color: white;
+    box-shadow: 4px 4px 14px black;
+    margin: 12px;
+    width:200px;
+    height: 80px; 
+    /* border: 5px double white; */
+    padding: 0 2rem;
+}
+
+.empty {
+    margin: 12px;
+    width: 200px;
+    height: 80px;
+}
+
+.cell:hover {
+    cursor: pointer;
+
+}
+
+.cell:active {
+    transform: translateY(3px);
+    box-shadow: inset 1px 1px 15px black;
+}
+
+.title.cellContents {   
+    font-weight: bold;
+}
+
+.cellContents {
+    font-size: larger;
+}
+
+.status {
+    margin: 0 auto;
+}
+
+.score {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 3rem;
+
+}
+
+.status {
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+} 
+
+
+
+
+/* .row1::before {
+    content: "Title";}
+.row2::before {
+    content: "$200";}
+.row3::before {
+    content: "$400";}
+.row4::before {
+    content: "$600";}
+.row5::before {
+    content: "$800";}
+.row6::before {
+    content: "$1000";} */
+
+
+

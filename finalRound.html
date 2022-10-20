@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index3.js" defer></script>
+    <title>Jeopardy - Final Round</title>
+</head>
+<body>   
+
+    <!-- having a gameContainer allows me to control the child gameBoard using flex -->
+<div class="gameContainer"> 
+
+    <div class="score">
+        <div class="score1Container" style="border: 2px solid black">
+            <center><h1>-Player 1-<br>
+            <span class="p1Score">no score</span>
+            </h1></center>
+        </div>   
+    </div>
+
+    <div class="innerGame">
+
+        <div class="gameHeader">    
+            <div class="titleRound"><h1>Jeopardy</h1></div>    
+        </div>
+<!-- gameBoard 
+I can index by column, numbered categoryN, inner cell or numbered 'ij' className
+I use a cellContents most interior div to control the position of the wording
+and I thus had to make all .cell's flexContainers-->
+    
+        <div class="gameBoard">
+
+        <div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="cell start">
+                <span class="cellContents">Play!</span>
+            </div>
+        </div>
+        <div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+        </div>
+        <div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="title">
+                <span class="cellContents">Final Category:</span></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+        </div>
+        <div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="title">
+                <center><span class="cellContents final"></span></center></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+        </div>
+        <div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+        </div>
+        <div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+        </div>
+
+</div>
+        
+        
+        <div class="status">
+            <div>
+                <h1><span class="statusMessage">Final Round</span></h1>
+            </div>
+        </div> 
+
+        
+    </div>     <!--  end innerGame -->
+
+    <div class="score">
+        <div class="score2Container">
+            <center><h1>-Player 2-<br>
+            <span class="p2Score">no score</span>
+            </h1></center>
+        </div>   
+    </div>
+
+</div> 
+
+
+           
+       
+</body>
+</html>
