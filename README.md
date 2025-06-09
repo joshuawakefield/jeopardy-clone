@@ -30,10 +30,8 @@ This project was an excellent exercise in foundational web development. Looking 
 4.  Type your answer into the browser prompt that appears.
 5.  A second player (or you) can then confirm if the answer is acceptable.
 
-PROBLEM STATEMENT
+ ## Problem Statement from Bootcamp
 
-
-Jeopardy Board
 Jeopardy! The great American quiz show has been a staple of network television since the 60s. In this project we will be creating our own Jeopardy board which we will build the functionality for in later weeks. For now we're going to focus on site design and navigation.
 
 This site will consist of 4 pages: a landing page, a first round page, a second round page, and a final round page.
@@ -132,4 +130,4 @@ One for the final answer, the button for which should be disabled
 Icebox
 Create your own theme for your site.
 Make the site fully mobile responsive.
-The site should have animated elements. Libraries are allowed. 
+The site should have animated elements. Libraries are allowed.
